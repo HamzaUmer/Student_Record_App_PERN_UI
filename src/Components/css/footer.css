@@ -1,0 +1,19 @@
+footer {
+  width: 100vw;
+  background-color: #be2323;
+  bottom: 0;
+  position: fixed;
+  height: 60px;
+}
+
+.name {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}
+
+img {
+  margin-bottom: 8px;
+}

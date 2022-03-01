@@ -1,0 +1,15 @@
+.container1 {
+  height: 100vh;
+  margin-top: -250px;
+}
+@media (max-width: 415px) {
+  .container1 {
+    overflow: scroll;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 737px) {
+  .container1 {
+    margin-top: -50px;
+  }
+}

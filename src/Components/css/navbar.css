@@ -1,0 +1,44 @@
+nav {
+  position: fixed;
+}
+.navbare {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.btn1 {
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.b-edit {
+  margin-top: -70px;
+}
+
+@media (max-width: 415px) {
+  .btn1 {
+    border: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 150px;
+  }
+  .navbare {
+    height: 30px;
+    width: 100%;
+  }
+  .b-edit {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 737px) {
+  .btn1 {
+    margin-left: 300px;
+  }
+  .b-edit {
+    margin-top: 0px;
+  }
+}

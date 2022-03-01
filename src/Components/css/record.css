@@ -1,0 +1,21 @@
+.btn2 {
+  border: none;
+  padding: 5px 15px;
+}
+.title {
+  margin: auto;
+  text-align: center;
+  color: brown;
+}
+
+@media (max-width: 415px) {
+  .tb {
+    overflow: scroll;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 737px) {
+  .container2 {
+    height: 100vh;
+  }
+}
